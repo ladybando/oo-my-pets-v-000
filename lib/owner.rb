@@ -72,6 +72,6 @@ class Owner
    @pets[:fishes].each {|sell| sell.mood = "nervous"}
    @pets[:cats].each {|sell| sell.mood = "nervous"}
    @pets[:dogs].each {|sell| sell.mood = "nervous"}
-
+   @pets.clear
  end
 end
